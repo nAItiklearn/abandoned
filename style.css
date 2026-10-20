@@ -97,3 +97,16 @@ main{
     font-size: 11px;
     color:#81776b;
 }
+.post h2{
+    margin:14px 0 8px;
+    color:#81776b;
+    font-size: 22px;
+
+}
+.fact{
+    margin-top:20px;
+    padding:12px;
+    background: #34332f;
+    color:#68483c;
+    font-size: 12px;
+}
