@@ -20,11 +20,14 @@ body{
 }
 h1{
     transform: rotate(+2deg);
-    color:#684e4e
+    color:#5e5858;
+    font-family:monospace;
 }
 header{
     border-bottom: 1px solid #34332f ;
     padding: 35px 7px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 .city{
     display: flex;
@@ -66,8 +69,10 @@ header{
 main{
     display: grid;
     gap: 45px;
-    padding: 45px 10px;
+    padding: 45px 0px;
     align-items: start;
+
+    
 }
 .section-title{
     display: flex;
@@ -84,12 +89,23 @@ main{
 .posts{
     display:flex;
     flex-direction: column;
-    gap:20px;
+    gap:22px;
+    padding: 22px;
+    background: rgba(62, 61, 61, 0.76);
+    border:1px solid #68483c
 }
-.posts,.post{
+
+.post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
     padding:22px;
-    background: rgba(41, 40, 40, 0.76);
+    background: rgba(62, 61, 61, 0.76);
     border: 1px solid #68483c
+}
+.post content{
+    flex: 1;
 }
 .post-info{
     display:flex;
@@ -109,4 +125,34 @@ main{
     background: #34332f;
     color:#68483c;
     font-size: 12px;
+}
+.photo{
+    display:block;
+    width: 380px;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+    flex-shrink: 0;
+}
+
+.sidebar{
+    min-width: 0;
+    padding: 18px;
+    border:1px solid #302c28;
+     background: rgba(62, 61, 61, 0.76);
+}
+.sidebar iframe{
+    display: block;
+    width: 100%;
+    height: 250px;
+    margin: 15px 0;
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:14px;
+    color:#5f5e5b;
 }
