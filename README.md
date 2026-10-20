@@ -1,7 +1,7 @@
 # LUCKNOW AFTER THE DARK
 A webpage to look for the abandond cool places to go with your friends!
 it is a field guide documenting forgotten monuments ,restricted heritage buildings and unfinisehd across Lucknow, Uttar Pradesh
-
+<img width="1880" height="940" alt="image" src="https://github.com/user-attachments/assets/e22705cd-95ab-4fec-bb20-00f3b2d13452" />
 
 ## Try it now!
 https://naitiklearn.github.io/abandoned/
