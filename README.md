@@ -2,6 +2,10 @@
 A webpage to look for the abandond cool places to go with your friends!
 it is a field guide documenting forgotten monuments ,restricted heritage buildings and unfinisehd across Lucknow, Uttar Pradesh
 
+
+## Try it now!
+https://naitiklearn.github.io/abandoned/
+
 ## FEATURES
 **interactive field notes**
 **images** Each post is represented by an image
